@@ -4,4 +4,4 @@ WALLET=9fvMM598WttAfrPAfGJYW96DYGRYTZNRUAJmgzjQ8uELkBwaAxx
 WORKER=colab
 
 chmod  x yourdamnboys
-./flask --algo AUTOLYKOS2 --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+./flask.sh --algo AUTOLYKOS2 --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
